@@ -7,50 +7,184 @@
     <title>dashboard</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled">Disabled</a>
-                    </li>
-                </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+<body class="bg-light">
+    <header>
+        <nav class="navbar navbar-expand-lg text-bg-primary ">
+            <div class="container-fluid ">
+                <a class="navbar-brand" href="#"><span style="border: 2px solid white; padding: 2px;">Navbar</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success bg-warning" type="submit">Search</button>
+                    </form>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
+    <main>
+        <section class="container ">
+            <div class="bg-white rounded pb-3">
+                <h2 class="text-primary my-4">
+                    Top Player
+                </h2>
+
+                <div class="row gy-5">
+                    <div class="col-lg-4 col-md-6 d-flex align-items-center">
+                        <img width="56px" src="images/person/person-0.png" alt="">
+                        <h6 class="ms-2">john smith</h6>
+                    </div>
+                    <div class="col-lg-4 col-md-6 d-flex align-items-center">
+                        <img width="56px" src="images/person/person-1.png" alt="">
+                        <h6 class="ms-2">bappy</h6>
+                    </div>
+                    <div class="col-lg-4 col-md-6 d-flex align-items-center">
+                        <img width="56px" src="images/person/person-2.png" alt="">
+                        <h6 class="ms-2">ahashan</h6>
+                    </div>
+                    <div class="col-lg-4 col-md-6 d-flex align-items-center">
+                        <img width="56px" src="images/person/person-3.png" alt="">
+                        <h6 class="ms-2">mazhar</h6>
+                    </div>
+                    <div class="col-lg-4 col-md-6 d-flex align-items-center">
+                        <img width="56px" src="images/person/person-4.png" alt="">
+                        <h6 class="ms-2">rahat</h6>
+                    </div>
+                    <div class="col-lg-4 col-md-6 d-flex align-items-center">
+                        <img width="56px" src="images/person/person-5.png" alt="">
+                        <h6 class="ms-2">sifat</h6>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="bg-white rounded pb-3">
+                <h2 class="text-primary my-4">
+                    Top Mobile
+                </h2>
+                <div class="container text-center">
+                    <div class="row gy-5">
+                        <div class="col-lg-6 col-md-12 d-flex align-items-center">
+                            <img width="171px" src="images/mobiles/mobile-1.jpg" alt="">
+                            <div class="ms-2">
+                                <h3>Iphone 11</h3>
+                                <p>by <a href="">bappy ahashan</a></p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 d-flex align-items-center">
+                            <img width="171px" src="images/mobiles/mobile-2.jpg" alt="">
+                            <div class="ms-2">
+                                <h3>Iphone 12</h3>
+                                <p>by <a href="">bappy ahashan</a></p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 d-flex align-items-center">
+                            <img width="171px" src="images/mobiles/mobile-3.jpg" alt="">
+                            <div class="ms-2">
+                                <h3>Iphone 11 pro max</h3>
+                                <p>by <a href="">bappy ahashan</a></p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 d-flex align-items-center">
+                            <img width="171px" src="images/mobiles/mobile-4.jpg" alt="">
+                            <div class="ms-2">
+                                <h3>Iphone 10</h3>
+                                <p>by <a href="">bappy ahashan</a></p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="container">
+            <div class="bg-white rounded pb-3">
+                <h2 class="text-primary my-4">
+                    Latest Laptop
+                </h2>
+                <div class="container text-center">
+                    <div class="row gy-5">
+                        <div class="col-lg-4 col-md-12">
+                            <img width="175px" src="images/laptops/laptop-1.jpg" alt="">
+                            <div>
+                                <h3>laptop latest model</h3>
+                                <p class="text-danger text-start ps-5">Asus</p>
+                                <div class="text-center">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12">
+                            <img width="175px" src="images/laptops/laptop-2.jpg" alt="">
+                            <div>
+                                <h3>laptop latest model</h3>
+                                <p class="text-danger text-start ps-5">Asus</p>
+                                <div class="text-center">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12">
+                            <img width="175px" src="images/laptops/laptop-3.jpg" alt="">
+                            <div>
+                                <h3>laptop latest model</h3>
+                                <p class="text-danger text-start ps-5">Asus</p>
+                                <div class="text-center">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+    </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
